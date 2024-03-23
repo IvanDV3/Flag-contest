@@ -1,0 +1,133 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+    z-index: 1;
+  }
+
+
+.gbflag{
+    width: 640px;
+    height: 427px;
+    border-radius: 0;
+    background-color: #012169;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+.rossoorizzontale {
+    width: 100%;
+    height: 75px;
+    background-color: #C8102E;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 6;
+
+}
+
+.rossoverticale {
+    height: 100%;
+    width: 75px;
+    background-color: #C8102E;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+}
+
+.biancoverticale {
+    height: 100%;
+    width: 125px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+
+
+}
+
+.biancoorizzontale {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    z-index: 5;
+
+}
+
+.biancoobliquo1 {
+    height: 1000px;
+    width: 75px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-50%) rotate(56.4deg);
+
+}
+
+.biancoobliquo2 {
+    height: 1000px;
+    width: 75px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-50%) rotate(-56.4deg);
+}
+
+.rosso1{
+    background-color: #C8102E;
+    width: 25px;
+    position: absolute;
+    z-index: 3;
+    height: 900px;
+    transform: translateX(23px) rotate(-56.4deg) translateY(500px);
+    z-index: 4;
+	
+}
+
+.rosso2{
+    background-color: #C8102E;
+    width: 25px;
+    position: absolute;
+    z-index: 3;
+    height: 900px;
+    transform:  translateX(-23px) rotate(236.4deg) translateY(500px);
+    z-index: 4;
+}
+
+.rosso3{
+    background-color: #C8102E;
+    width: 25px;
+    position: absolute;
+    z-index: 3;
+    height: 900px;
+    transform: translateX(-13px) rotate(-237deg) translateY(500px);
+    z-index: 4;
+}
+
+.rosso4{
+    background-color: #C8102E;
+    width: 25px;
+    position: absolute;
+    z-index: 3;
+    height: 900px;
+    transform: translateX(23px) rotate(56.4deg) translateY(500px);
+    z-index: 4;
+}
+
+
+
